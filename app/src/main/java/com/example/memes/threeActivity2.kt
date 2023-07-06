@@ -23,15 +23,3 @@ class threeActivity2 : AppCompatActivity() {
         }
     }
 }
-//class threeActivity2 : AppCompatActivity() {
-//    lateinit var btnfour:Button
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_three2)
-//        btnfour = this.findViewById(R.id.btnfour)
-//        btnfour.setOnClickListener {
-//            val intent = Intent(this,fourActivity2::class.java)
-//            startActivity(intent)
-//        }
-//    }
-//}
